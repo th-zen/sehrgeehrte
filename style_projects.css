@@ -1,0 +1,138 @@
+* {
+    font-family: "PP Editorial Old", "Times New Roman";
+    font-size: 20px;
+    color: #005ca9;
+    box-sizing: border-box;
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #005ca9;
+  }
+  
+  h2 {
+    font-size: 60px;
+    font-style: italic;
+    margin: 0;
+  }
+  
+  /* NAV BAR */
+  .navbar {
+    flex: 0 0 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10vh;
+    padding: 0 8vw;
+    z-index: 1;
+  }
+  
+  .selected_container a,
+  .navbar a {
+    border: solid 1px #005ca9;
+    background: #ffffff;
+    border-radius: 100px;
+    width: 150px;
+    min-width: 90px;
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .selected_container a:hover,
+  .navbar a:hover {
+    background-color: #005ca9;
+    color: #ffffff;
+  }
+
+
+
+/* HOVER GALLERY */
+
+  
+  #gallery {
+    height: 100vh;
+    width: 140vmax;  
+    position: absolute;
+  }
+  
+  .tile {
+    border-radius: 1vmax;
+    position: absolute;
+    transition: transform 800ms ease;
+  }
+  
+  .tile:hover {
+    transform: scale(1.1);
+  }
+  
+  .tile:hover > img{
+    opacity: 1;
+    transform: scale(1.01);
+  }
+  
+  .tile > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 800ms ease,
+        transform 800ms ease;
+  }
+
+  .tile:hover > p {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+
+  .tile p {
+    font-size: 40px;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 800ms ease,
+        transform 800ms ease;
+    left: 8%;
+    bottom: 1%;
+  }
+
+  .white_txt {
+    color: #ffffff;
+  }
+  
+  .tile:nth-child(1) {
+    background-color: #98c1e3;
+    height: 24%;
+    width: 30%;
+    left: 10%;
+    top: 10%;
+  }
+  
+  .tile:nth-child(2) {
+    background-color: #98c1e3;
+    height: 34%;
+    width: 24%;
+    left: 32%;
+    top: 46%;
+  }
+  
+  .tile:nth-child(3) {
+    background-color: #98c1e3;
+    height: 46%;
+    width: 30%;
+    left: 60%;
+    bottom: 30%;
+  }
+  
