@@ -93,3 +93,28 @@ h2 {
     border-bottom: dashed 1px #ffffff;
 }
 
+
+
+
+
+
+@media only screen and (max-width: 600px){ 
+  .impressum_container p{
+    font-size: 10px;
+  }
+
+  .contact_rows {
+    grid-column: 1/10;
+    margin-bottom: 5vh;
+  }
+
+  .contact_container h2 {
+    grid-column: 1/10;
+    font-size: 30px;
+  }
+
+  .contact_singlerow p,
+  .contact_singlerow a{
+    font-size: 16px;
+  }
+}

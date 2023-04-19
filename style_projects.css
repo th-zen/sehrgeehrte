@@ -136,3 +136,61 @@
     bottom: 30%;
   }
   
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    
+    body {
+      overflow:scroll;
+    }
+
+    .tile > img,
+    .tile p {
+      opacity: 1;
+    }
+
+    #gallery {
+      height: auto;
+      width: 100%;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tile {
+      position: relative;
+      margin: 10px;
+    }
+
+    .tile p {
+      left: 3%;
+      bottom: 1%;
+      margin: 0;
+    }
+
+    .tile:nth-child(1) {
+      height: auto;
+      width: auto;
+      left: auto;
+      top: auto;
+      bottom: auto;
+    }
+    .tile:nth-child(2) {
+      height: auto;
+      width: auto;
+      left: auto;
+      top: auto;
+      bottom: auto;
+    }
+    .tile:nth-child(3) {
+      height: auto;
+      width: auto;
+      left: auto;
+      top: auto;
+      bottom: auto;
+    }
+  }
