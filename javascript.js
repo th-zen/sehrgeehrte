@@ -71,3 +71,21 @@ landingLogo.addEventListener("mouseout", function() {
   }
 });
 
+//Scrolling smoothly to the anchor instead of Jumping
+const scrollLinks = document.querySelectorAll('.navlink');
+
+scrollLinks.forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault(); // Prevent the default behavior of the anchor link
+
+    const targetId = link.getAttribute('href'); // Get the target section ID
+    const targetSection = document.querySelector(targetId); // Get the target section element
+    const targetTop = targetSection.offsetTop; // Get the top position of the target section
+
+    window.scrollTo({
+      top: targetTop,
+      behavior: 'smooth' // Smoothly scroll to the target section
+    });
+  });
+});
+

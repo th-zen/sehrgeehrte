@@ -11,10 +11,10 @@
   <body>
     <div class="landing_container">
       <div class="navbar">
-        <a href="index.html">Home</a>
+        <a href="index.html" class="navlink">Home</a>
         <a href="projects.html">Projects</a>
-        <a>Team</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html#team_anchor" class="navlink">Team</a>
+        <a href="index.html#contact_anchor" class="navlink">Contact</a>
       </div>
       <div class="video_container">
         <video src="media/video/Highlightreel.mp4" id="highlightreel" muted loop></video>
@@ -51,7 +51,7 @@
       </div>
       <a href="projects.html">more projects</a>
     </div>
-    <div class="team_header_container">
+    <div class="team_header_container" id="team_anchor">
       <h2>the team</h2>
       <h3>we are a young and dynamic group of<br>rebels with a diverse skillset</h3>
       <p>so just like everybody else</p>
@@ -102,9 +102,23 @@
           </div>
         </div>
     </div>
-    <div class="contact_container">
-      <h2>interested?</h2>
-      <a href="contact.html">get in touch</a>
+    <div class="contact_container" id="contact_anchor">
+      <h2>ready for change? get in touch</h2>
+      <div class="contact_rows">
+          <div class="contact_singlerow">
+            <p class="contact_left">mail</p>
+            <a class="contact_right" href="mailto:office@sehrgeehrte.at"
+              >office@sehrgeehrte.at</a>
+          </div>
+          <div class="contact_singlerow">
+            <p class="contact_left">phone</p>
+            <p class="contact_right">+43660 10 59 626</p>
+          </div>
+          <div class="contact_singlerow contact_lastrow">
+            <p class="contact_left">idk</p>
+            <p class="contact_right">behance ? linkedin?</p>
+          </div>
+      </div>
     </div>
     <div class="impressum_container">
       <p>©sehrgeehrte 2023</p>
