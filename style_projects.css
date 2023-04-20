@@ -105,3 +105,14 @@
     width: 100%;
     z-index: 2;
   }
+
+  @media only screen and (max-width: 600px) {
+    .tile {
+      height: 50vh;
+    }
+
+    .tile p {
+      opacity: 1;
+      font-size: 40px;
+    }
+  }

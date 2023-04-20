@@ -481,18 +481,39 @@ font-style: normal;
     height: 400px;
     margin-bottom: -400px;
     justify-content: flex-start;
-    align-items: center;
-    padding: 0;
+    align-items: flex-start;
+    padding-left: 30px;
     gap: 8px;
+  }
 
+  .accordion-content p {
+    margin: 0;
   }
 
   .profilepic {
     width: 200px;
     height: auto;
+    margin: 0;
   }
 
   .selected_container a {
     width: 70%;
+  }
+
+  .contact_rows {
+    grid-column: 1/10;
+  }
+
+  .contact_singlerow {
+    padding-left: 5vw;
+  }
+
+  .impressum_container p {
+    font-size: 10px;
+  }
+
+  .contact_container h2 {
+    text-align: center;
+    grid-column: 1/10;
   }
 }
