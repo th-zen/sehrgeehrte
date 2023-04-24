@@ -4,120 +4,162 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script>history.scrollRestoration = "manual"</script>
+    <script>
+      history.scrollRestoration = "manual";
+    </script>
     <link rel="stylesheet" href="style.css" />
     <title>sehrgeehrte</title>
   </head>
   <body>
     <div class="landing_container">
-      <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="#team_anchor" class="navlink">Team</a>
-        <a href="#contact_anchor" class="navlink">Contact</a>
-      </div>
+
+
+      <input id="toggle" type="checkbox"></input>
+
+<label for="toggle" class="hamburger">
+  <div class="top-bun"></div>
+  <div class="meat"></div>
+  <div class="bottom-bun"></div>
+</label>
+
+<div class="nav">
+  <div class="nav-wrapper">
+    <nav>
+      <a href="index.html">Home</a><br>
+      <a href="projects.html">Projects</a><br>
+      <a href="#team_anchor">Team</a><br>
+      <a href="#contact_anchor">Contact</a>
+    </nav>
+  </div>
+</div>
+
+
       <div class="video_container">
-        <video src="media/video/Highlightreel.mp4" id="highlightreel" muted loop></video>
+        <video
+          src="media/video/Highlightreel.mp4"
+          id="highlightreel"
+          muted
+          loop
+        ></video>
       </div>
       <div class="landing_stuff">
-        <img src="media/pic/logo.png" id="landing_logo"/>
+        <img src="media/pic/logo.png" id="landing_logo" />
       </div>
-      <!-- <div class="explore">
-        <button id="explore_btn">explore</button>
-      </div> -->
     </div>
     <div class="statement_container" id="statement_container">
       <h2>GenZ communicates differently</h2>
-      <h3>We create visual content that translates<br>your values to a new generation</h3>
+      <h3>
+        We create visual content that translates<br />your values to a new
+        generation
+      </h3>
       <button>how we do it</button>
     </div>
     <div class="claim_container">
       <div class="claim">
         <button>CLAIM CLAIM CLAIM</button>
-        <h3>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-          nonumy eirmod tempor invidunt ut labore et dolore magna 
-          aliquyam erat, sed diam voluptua. At vero eos et accusam et justo 
-          duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum 
-          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-          sed diam voluptua. At vero eos et.</h3>
+        <h3>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et.
+        </h3>
       </div>
     </div>
     <div class="selected_container">
       <p>selected work</p>
       <div class="image_container">
-        <img src="media/pic/nelson_bluebox.jpg">
+        <img src="media/pic/nelson_bluebox.jpg" />
       </div>
       <a href="projects.html">more projects</a>
     </div>
     <div class="team_header_container" id="team_anchor">
       <h2>the team</h2>
-      <h3>we are a young and dynamic group of<br>rebels with a diverse skillset</h3>
+      <h3>
+        we are a young and dynamic group of<br />rebels with a diverse skillset
+      </h3>
       <p>so just like everybody else</p>
     </div>
     <div class="team_members_container">
-        <div class="accordion">
-          <input type="checkbox" name="select" class="accordion-select" />
-          <div class="accordion-title"><p>Noah Bonevie</p><p>Mr. Lova lova</p></div>
-          <div class="accordion-content">
-            <img class="profilepic" src="media/pic/team/Noah_Bonevie.jpg" />
-            <p>blablablablablabla</p>
-          </div>
-          <input type="checkbox" name="select" class="accordion-select" />
-          <div class="accordion-title"><p>Peter Verhounik</p><p>Videographer for the hub</p></div>
-          <div class="accordion-content">
-            <img class="profilepic" src="media/pic/team/Peter_Verhounik.jpg" />
-            <p>blablablablablabla</p>
-          </div>
-          <input type="checkbox" name="select" class="accordion-select" />
-          <div class="accordion-title"><p>Tobias Schittenkopf</p><p>Master Baiter</p></div>
-          <div class="accordion-content">
-            <img
-              class="profilepic"
-              src="media/pic/team/Tobias_Schittenkopf.jpg"
-            />
-            <p>blablablablablabla</p>
-          </div>
-          <input type="checkbox" name="select" class="accordion-select" />
-          <div class="accordion-title"><p>Florian Thausing</p><p>let him cook</p></div>
-          <div class="accordion-content">
-            <img class="profilepic" src="media/pic/team/Florian_Thausing.jpg" />
-            <p>blablablablablabla</p>
-          </div>
-          <input type="checkbox" name="select" class="accordion-select" />
-          <div class="accordion-title"><p>Benjamin Höll</p><p>muss mal ski ski</p></div>
-          <div class="accordion-content">
-            <img class="profilepic" src="media/pic/team/Benjamin_Hoell.jpg" />
-            <p>blablablablablabla</p>
-          </div>
-          <input type="checkbox" name="select" class="accordion-select" />
-          <div class="accordion-title"><p>Sebastian Leitgeb</p><p>the man with 3Ds</p></div>
-          <div class="accordion-content">
-            <img
-              class="profilepic"
-              src="media/pic/team/Sebastian_Leitgeb.jpg"
-            />
-            <p>blablablablablabla</p>
-          </div>
+      <div class="accordion">
+        <input type="checkbox" name="select" class="accordion-select" />
+        <div class="accordion-title">
+          <p>Noah Bonevie</p>
+          <p>Mr. Lova lova</p>
         </div>
+        <div class="accordion-content">
+          <img class="profilepic" src="media/pic/team/Noah_Bonevie.jpg" />
+          <p>blablablablablabla</p>
+        </div>
+        <input type="checkbox" name="select" class="accordion-select" />
+        <div class="accordion-title">
+          <p>Peter Verhounik</p>
+          <p>Videographer for the hub</p>
+        </div>
+        <div class="accordion-content">
+          <img class="profilepic" src="media/pic/team/Peter_Verhounik.jpg" />
+          <p>blablablablablabla</p>
+        </div>
+        <input type="checkbox" name="select" class="accordion-select" />
+        <div class="accordion-title">
+          <p>Tobias Schittenkopf</p>
+          <p>Master Baiter</p>
+        </div>
+        <div class="accordion-content">
+          <img
+            class="profilepic"
+            src="media/pic/team/Tobias_Schittenkopf.jpg"
+          />
+          <p>blablablablablabla</p>
+        </div>
+        <input type="checkbox" name="select" class="accordion-select" />
+        <div class="accordion-title">
+          <p>Florian Thausing</p>
+          <p>let him cook</p>
+        </div>
+        <div class="accordion-content">
+          <img class="profilepic" src="media/pic/team/Florian_Thausing.jpg" />
+          <p>blablablablablabla</p>
+        </div>
+        <input type="checkbox" name="select" class="accordion-select" />
+        <div class="accordion-title">
+          <p>Benjamin Höll</p>
+          <p>muss mal ski ski</p>
+        </div>
+        <div class="accordion-content">
+          <img class="profilepic" src="media/pic/team/Benjamin_Hoell.jpg" />
+          <p>blablablablablabla</p>
+        </div>
+        <input type="checkbox" name="select" class="accordion-select" />
+        <div class="accordion-title">
+          <p>Sebastian Leitgeb</p>
+          <p>the man with 3Ds</p>
+        </div>
+        <div class="accordion-content">
+          <img class="profilepic" src="media/pic/team/Sebastian_Leitgeb.jpg" />
+          <p>blablablablablabla</p>
+        </div>
+      </div>
     </div>
     <div class="contact_container" id="contact_anchor">
       <h2>ready for change? get in touch</h2>
       <div class="contact_rows">
-          <div class="contact_singlerow">
-            <p class="contact_left">mail</p>
-            <a class="contact_right" href="mailto:office@sehrgeehrte.at"
-              >office@sehrgeehrte.at</a>
-          </div>
-          <div class="contact_singlerow">
-            <p class="contact_left">phone</p>
-            <p class="contact_right">+43660 10 59 626</p>
-          </div>
-          <div class="contact_singlerow contact_lastrow">
-            <p class="contact_left">idk</p>
-            <p class="contact_right">behance ? linkedin?</p>
-          </div>
+        <div class="contact_singlerow">
+          <p class="contact_left">mail</p>
+          <a class="contact_right" href="mailto:office@sehrgeehrte.at"
+            >office@sehrgeehrte.at</a
+          >
+        </div>
+        <div class="contact_singlerow">
+          <p class="contact_left">phone</p>
+          <p class="contact_right">+43660 10 59 626</p>
+        </div>
+        <div class="contact_singlerow contact_lastrow">
+          <p class="contact_left">idk</p>
+          <p class="contact_right">behance ? linkedin?</p>
+        </div>
       </div>
     </div>
     <div class="impressum_container">

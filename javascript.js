@@ -65,7 +65,7 @@ landingLogo.addEventListener("mouseout", function() {
   // Loop through all the navigation links
   for(let i = 0; i < navLinks.length; i++) {
     // Change the border, background, and color back to their original values
-    navLinks[i].style.border = "solid 1px #005CA9";
+    navLinks[i].style.border = "solid 1px #000000";
     navLinks[i].style.background = "#ffffff";
     navLinks[i].style.color = "inherit";
   }
@@ -88,4 +88,3 @@ scrollLinks.forEach(link => {
     });
   });
 });
-
