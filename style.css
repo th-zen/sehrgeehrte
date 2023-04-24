@@ -372,7 +372,7 @@ font-style: normal;
 
 /* CONTACT CONTAINER */
 .contact_container {
-  height: 100vh;
+  height: 93vh;
   flex: 1;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -569,6 +569,7 @@ font-style: normal;
 
   .nav nav a {
     border: none;
+    width: auto;
   }
 
   .nav nav a:hover {
@@ -624,5 +625,9 @@ font-style: normal;
   #toggle:checked + .hamburger + .nav {
     top: 0;
     transform: scale(1);
+  }
+
+  #toggle:checked + .hamburger {
+    position: fixed;
   }
 }

@@ -47,7 +47,7 @@ for (var i=0; i<checkboxes.length; i++) {
 
 // Select the image and all navigation links
 const landingLogo = document.getElementById("landing_logo");
-const navLinks = document.querySelectorAll(".navbar a");
+const navLinks = document.querySelectorAll(".nav nav a");
 
 // Add an event listener to the image for when it's hovered over
 landingLogo.addEventListener("mouseover", function() {
@@ -88,3 +88,7 @@ scrollLinks.forEach(link => {
     });
   });
 });
+
+function uncheckToggle() {
+  document.getElementById("toggle").checked = false;
+}
