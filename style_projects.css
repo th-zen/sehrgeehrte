@@ -232,4 +232,8 @@
     top: 0;
     transform: scale(1);
   }
+
+  #toggle:checked + .hamburger {
+    position: fixed;
+  }
   }
