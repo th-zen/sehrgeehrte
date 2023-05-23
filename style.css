@@ -17,10 +17,10 @@ button {
   height: 50px;
 }
 
-button:hover {
+/* button:hover {
   background: #000000;
   color: #ffffff;
-}
+} */
 
 h2 {
   font-size: 60px;
@@ -362,7 +362,7 @@ font-style: normal;
 } 
 
 .accordion-content p {
-  margin: 0 0 0 auto;
+  margin: 0 150px 0 20px;
 }
 
 .profilepic {
@@ -492,7 +492,7 @@ font-style: normal;
   }
 
   .accordion-content p {
-    margin: 0;
+    margin: 25px 0 0 0;
   }
 
   .profilepic {
